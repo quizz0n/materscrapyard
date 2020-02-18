@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Code starts here */
+
+body {
+  background-color: #191e2b;
+  font-family: Open Sans;
+}
+
+.logo {
+  width: 300px;
+  position: absolute;
+  left: 7%;
+  filter: drop-shadow(10px 10px 4px #000);
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.intro {
+  margin: 10px;
+  padding: 5px;
+}
+
+.intro .top-txt {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.top-txt h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 56px;
+  background: linear-gradient(#00F260 10%, #0575E6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(10px 10px 4px #000);
+}
+
+.top-txt p {
+  font-size: 24px;
+  font-family: 'Caveat', cursive;
+  color: #EB6E36;
+  text-shadow: 4px 4px 5px #000;
+}
+
+.steps {
+  margin: 20px 0px;
+  color: #fff;
+  text-align: center;
+}
+
+.steps p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ol.steps {
+  margin: 5px;
+}
+
+ol.steps li {
+  margin: 10px;
+}
+
+ol.steps li span {
+  text-decoration: underline;
+}
+
+.steps p.disc {
+  color: red;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+  margin: 20px 0px;
+}
+
+.entries {
+  background-color: #30343f;
+  border-radius: 10px;
+}
+
+.item {
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px;
+  background: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.car {
+  position:relative;
+}
+
+.details {
+  text-align: center;
+  width: 100%;
+}
+
+.view {
+  display: none;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.specs {
+  font-size: 16px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul.specs li {
+  display: inline;
+  color: #fff;
+}
+
+.buy, .view {
+  font-size: 14px;
+  font-weight: bold;
+}
