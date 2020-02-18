@@ -62,12 +62,12 @@ body {
   height: auto;
 }
 
-.intro {
+.header {
   margin: 10px;
   padding: 5px;
 }
 
-.intro .top-txt {
+.header .top-txt {
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -123,6 +123,7 @@ ol.steps li span {
 .entries {
   background-color: #30343f;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .item {
@@ -171,4 +172,33 @@ ul.specs li {
 .buy, .view {
   font-size: 14px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+.logo {
+  position: initial;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.header, .header .top-txt {
+  padding: 0;
+}
+
+.top-txt h1 {
+  font-size: 40px;
+}
+
+.item {
+  max-width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn {
+  margin: 5px;
+}
+
+.view {
+  display: inline-block;
+}
 }
